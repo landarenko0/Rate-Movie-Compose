@@ -68,9 +68,11 @@ dependencies {
     implementation(libs.bundles.hilt)
     // Serialization
     implementation(libs.bundles.serialization)
-    // Tests
-    //implementation(libs.bundles.tests)
+    // Coil
+    implementation(libs.coil)
 
+//    Tests
+//    implementation(libs.bundles.tests)
 
 //    testImplementation(libs.junit)
 //    androidTestImplementation(libs.androidx.junit)
