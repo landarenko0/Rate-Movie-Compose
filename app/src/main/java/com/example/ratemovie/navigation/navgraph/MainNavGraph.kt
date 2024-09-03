@@ -17,19 +17,19 @@ fun MainNavGraph() {
         navigation<AppScreens.StartNavGraph>(
             startDestination = AppScreens.StartScreen
         ) {
-
+            startNavGraph(navController)
         }
 
         navigation<AppScreens.SearchNavGraph>(
-            startDestination = AppScreens.StartScreen
+            startDestination = AppScreens.SearchScreen
         ) {
-
+            searchNavGraph(navController)
         }
 
         navigation<AppScreens.AccountNavGraph>(
-            startDestination = AppScreens.StartScreen
+            startDestination = AppScreens.AccountScreen
         ) {
-
+            accountNavGraph(navController)
         }
     }
 }
